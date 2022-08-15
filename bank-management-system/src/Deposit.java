@@ -1,4 +1,3 @@
-//set b1 correct position,add back to transactions button
 import javax.swing.*;
 import java.awt.*;
 import java.sql.*;
