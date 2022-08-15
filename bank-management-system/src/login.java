@@ -41,6 +41,7 @@ public class login extends JFrame {
             String query = "select * from login where cardno = '"+cardNo+"' and pin = '"+pin+"' ";
             try {
                 ResultSet rs = dbConnection.s.executeQuery(query);
+                //checking if user exists in the db
                 if(rs.next()){
                     f.setVisible(false);
                     new Transactions(pin);
