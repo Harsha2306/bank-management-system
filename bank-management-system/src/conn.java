@@ -1,4 +1,11 @@
 import java.sql.*;
+/*
+1)Register the Driver class
+2)Create connection
+3)Create statement
+4)Execute queries
+5)Close connection
+*/
 
 public class conn {
    final String url = "jdbc:mysql://localhost:3306/bankManagementSystem";
