@@ -9,7 +9,7 @@ import java.sql.*;
 */
 
 public class conn {
-   final String url = "jdbc:mysql://localhost:3306/bankManagementSystem";
+   final String url = "jdbc:mysql://localhost:3306/bankManagementSystem";//where jdbc is the API, mysql is the database, localhost is the server name on which mysql is running, we may also use IP address, 3306 is the port number and bankManagementSystem is the database name.
    final String user = "root";
    final String password = "mysql_HARSHA@555";
    Connection c;
