@@ -58,7 +58,7 @@ public class Deposit extends JFrame {
             if(amount.equals("")) {
                 JOptionPane.showMessageDialog(f, "Please enter the amount to deposit");
                 f.setVisible(false);
-                new Transactions("1234");
+                new Transactions(pin);
             }
             else{
                 try {
